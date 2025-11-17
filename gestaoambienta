@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Jornal Verde - Greenwashing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<style>
+  /* Fundo verde claro */
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    background: #e9f7ec;
+}
+
+/* Topo com imagem de floresta */
+  .hero {
+    background-image: url("img/floresta.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   /* 🔥 impede que a imagem continue descendo */
+    background-color: #0a5c2e;      /* 🔥 verde forte atrás da imagem */
+    
+    animation: moverFundo 18s ease-in-out infinite alternate;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    height: 150px;
+    padding: 20px;
+
+    color: white;
+    font-size: 2rem;
+    text-shadow: 1px 1px 4px black;
+}
+
+/* Animação do fundo */
+@keyframes moverFundo {
+    from { background-position: center top; }
+    to   { background-position: center bottom; }
+}
+
+
+
+
+.container {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Conteúdo principal estilo jornal */
+.content {
+    width: 70%;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px #ccc;
+    border-left: 4px solid green;
+}
+
+/* Notícias na lateral direita */
+.news {
+    width: 30%;
+    background: #f3fff3;
+    padding: 20px;
+    border-left: 4px solid #227722;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.news ul {
+    list-style: none;
+    padding: 0;
+}
+
+.news li {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #ffffff;
+    border-left: 4px solid green;
+    box-shadow: 0 0 5px rgb(0 0 0 / 0.1);
+}
+
+.news a {
+    text-decoration: none;
+    color: #145c1b;
+    font-weight: bold;
+}
+
+/* Quiz */
+.quiz button {
+    display: block;
+    margin: 6px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #444;
+    background: #e8ffe8;
+    cursor: pointer;
+}
+
+.quiz button:hover {
+    background: #d0ffd0;
+}
+
+#quiz-feedback {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+</style>
+    <!-- TOPO COM IMAGEM DE FLORESTA -->
+    <header class="hero">
+        <h1>Jornal Verde</h1>
+        <p>A verdade sobre o Greenwashing</p>
+    </header>
+
+    <main class="container">
+
+        <!-- CONTEÚDO PRINCIPAL (EXPLICAÇÕES) -->
+        <section class="content">
+            <article>
+                <h2>O que é essa tal greenwashing?</h2>
+                <p>
+
+                        Greenwashing é quando uma empresa finge ser sustentável.
+                        É como se ela colocasse uma “maquiagem verde” para parecer ambientalmente correta — sem realmente fazer mudanças importantes.
+                        Isso acontece quando marcas:
+                        usam palavras como “eco”, “verde”, “natural” sem provas;
+                        mostram propagandas bonitas, mas não mudam nada na prática;
+                        destacam ações pequenas, enquanto escondem problemas maiores;
+                        usam embalagens verdes, folhas ou símbolos de reciclagem só para enganar.
+                        Ou seja: a empresa quer parecer sustentável para vender mais, mas não quer agir como uma empresa sustentável de verdade.
+                        Por que isso é ruim?
+                        Porque confunde o consumidor, prejudica empresas que são realmente responsáveis e atrasa a construção de uma economia mais justa e sustentável.
+                </p>
+            </article>
+             <article>
+            <h2>Como combater a greenwashing?</h2>
+            <p>
+
+                O greenwashing, ou “maquiagem verde”, é uma prática em que empresas utilizam discursos e campanhas ambientais enganosas para aparentar sustentabilidade, sem realmente adotar medidas concretas. Para combater esse problema, é essencial adotar ações que envolvam consumo consciente, transparência e fiscalização efetiva.
+
+                Em primeiro lugar, os consumidores devem buscar informações sobre as marcas antes de adquirir produtos, verificando selos de certificação ambiental reconhecidos, como FSC (para produtos florestais), ISO 14001 (para gestão ambiental) e o selo IBD (para produtos orgânicos). Essa verificação ajuda a diferenciar empresas verdadeiramente sustentáveis daquelas que apenas simulam responsabilidade ecológica.
+
+                Além disso, o governo e os órgãos reguladores precisam reforçar a fiscalização das propagandas e dos relatórios de sustentabilidade, exigindo que as empresas comprovem, com dados e auditorias independentes, as ações ambientais que divulgam.
+
+                Outro ponto importante é o papel da mídia e da educação ambiental, que devem informar a população sobre práticas enganosas e estimular o senso crítico no consumo. Campanhas educativas podem reduzir a influência de propagandas falsas e incentivar comportamentos sustentáveis no dia a dia.
+
+                Por fim, cabe também às próprias empresas adotar transparência e responsabilidade social em seus processos, divulgando metas reais de redução de impactos ambientais e apresentando resultados mensuráveis.
+
+                Em síntese, combater o greenwashing requer a união entre consumidores atentos, empresas éticas e políticas públicas rigorosas, promovendo uma economia mais justa e verdadeiramente sustentável.
+            </p>
+
+
+           </article>
+           
+            <article>
+                <h2>Como combater?</h2>
+                <p>
+                    Como os consumidores podem identificar o greenwashing em empresas brasileiras
+
+<li>Passo 1 – Observar a mensagem ambiental</li>
+<article>
+<p>
+O primeiro passo para reconhecer o greenwashing é observar atentamente a mensagem que a empresa comunica. Frases como “produto ecológico”, “amigo do meio ambiente” ou “sustentável” são comuns, mas, muitas vezes, não possuem comprovação. 
+Quando uma marca utiliza expressões vagas, sem dados concretos ou explicações específicas, o alerta deve ser acionado. É importante que o consumidor se pergunte: 
+o que exatamente torna esse produto sustentável? Há números, prazos, metas ou descrições de processos? Uma empresa séria costuma apresentar informações detalhadas — por exemplo, “reduzimos em 40% o uso de água na produção desde 2022” —, enquanto aquelas que recorrem a frases genéricas normalmente tentam apenas melhorar a própria imagem. A ausência de informações verificáveis é um dos indícios mais clássicos de greenwashing.
+</p>
+</article>
+
+<li>Passo 2 – Verificar selos e certificações ambientais</li>
+<article>
+<p>
+Após analisar a mensagem, o consumidor deve investigar se a empresa possui selos ou certificações ambientais reconhecidas. No Brasil, há selos legítimos como o FSC (Forest Stewardship Council), que certifica o manejo responsável de florestas, e o Rótulo Ecológico da ABNT, que avalia produtos com menor impacto ambiental. 
+Ao encontrar um selo, o ideal é conferir sua validade no site oficial da certificadora. Muitos produtos exibem logotipos criados pela própria empresa — sem auditoria externa — o que caracteriza o uso de “selos falsos” ou “autocertificação”. Esse tipo de estratégia transmite uma aparência de credibilidade, mas não garante que a prática sustentável realmente exista. 
+Um consumidor crítico pode dedicar alguns minutos para verificar se aquele selo está ativo, qual aspecto ele certifica (produto, embalagem ou processo) e se foi emitido por uma instituição reconhecida. 
+Se o selo não puder ser encontrado em uma base pública, trata-se provavelmente de uma ferramenta de marketing, e não de real responsabilidade ambiental.
+</p>
+</article>
+
+
+<li>Passo 3 – Avaliar a relevância da ação ambiental</li>
+<article>
+<p>    
+Outro ponto crucial é avaliar a relevância da ação ambiental comunicada. Algumas empresas destacam práticas que, embora positivas, são insignificantes diante do impacto total do produto. Um exemplo clássico é quando uma marca de produtos químicos anuncia “embalagem reciclável”, mas ignora o fato de que a fórmula interna é tóxica ou altamente poluente. 
+Nesse caso, há uma desconexão entre o benefício anunciado e o dano principal causado. Pesquisas indicam que cerca de 16% das alegações enganosas no Brasil são classificadas como irrelevantes, justamente por exaltar pequenas melhorias sem enfrentar os problemas reais do processo produtivo. 
+É essencial que o consumidor se pergunte: essa ação tem impacto real na redução dos danos ambientais ou serve apenas como distração? 
+Além disso, é preciso desconfiar de alegações que enfatizam “ausência de substâncias” já proibidas por lei, como o uso de “sem CFC” em sprays, um composto banido há décadas. Esse tipo de afirmação, embora pareça positiva, é uma estratégia de greenwashing que explora a falta de informação do público.
+</p>
+</article>
+
+<li> Passo 4 – Conferir a coerência entre discurso e prática </li>
+<article>
+<p>
+O passo seguinte consiste em verificar a coerência entre o discurso e as práticas reais da empresa. Para isso, uma simples pesquisa no Google pode revelar muito: basta buscar o nome da marca acompanhado de termos como “multa ambiental”, “processo”, “denúncia ambiental” ou “infrações ambientais”. Empresas verdadeiramente comprometidas com a sustentabilidade não temem divulgar relatórios completos de impacto, contendo dados sobre emissões, resíduos e uso de energia. 
+Já as que praticam greenwashing tendem a produzir relatórios superficiais ou parciais, omitindo partes relevantes da cadeia produtiva, como fornecedores, transporte e descarte final. 
+Assim, uma empresa pode afirmar que sua fábrica é neutra em carbono, mas ignorar as emissões associadas à produção das matérias-primas ou ao transporte global de seus produtos.
+</p>
+</article>
+
+<li>Passo 5 – Aplicar o teste rápido de consumidor</li>
+<article>
+<p>
+Para testar rapidamente se uma empresa está sendo transparente, o consumidor pode realizar um pequeno exercício de verificação.
+ Em poucos minutos, é possível buscar o relatório de sustentabilidade da marca, conferir se há certificações válidas e checar se a empresa foi multada por órgãos ambientais. 
+Um olhar atento à comunicação visual também ajuda: o uso excessivo da cor verde, de símbolos de folhas e árvores, ou de expressões sentimentais como “cuidamos do planeta”, sem respaldo técnico, indica uma tentativa de construir uma imagem ambientalmente responsável sem fundamento. 
+Segundo especialistas, o greenwashing no Brasil muitas vezes se apoia justamente nesse apelo visual, que explora a empatia ecológica do público, mas carece de dados e compromissos reais.
+</p>
+</article>   
+</p>
+            </article>
+
+            <article>
+
+            <!-- QUIZ -->
+            <section class="quiz">
+                <h2>Mini Quiz</h2>
+
+                <div class="question">
+                    <p>1) O que é greenwashing?</p>
+                    <button onclick="checkAnswer(this, true)">Ação falsa de sustentabilidade para enganar</button>
+                    <button onclick="checkAnswer(this, false)">Processo natural da natureza</button>
+                </div>
+
+                <div class="question">
+                    <p>2) Como identificar greenwashing?</p>
+                    <button onclick="checkAnswer(this, true)">Analisando certificações e dados reais</button>
+                    <button onclick="checkAnswer(this, false)">Confiando somente em propagandas</button>
+                </div>
+
+                <div class="question">
+                    <p>3) Qual é um exemplo de greenwashing?</p>
+                    <button onclick="checkAnswer(this, true)">Empresa poluidora que se diz verde</button>
+                    <button onclick="checkAnswer(this, false)">Reciclagem de lixo doméstico</button>
+                </div>
+
+                <p id="quiz-feedback"></p>
+            </section>
+        </section>
+
+        <!-- LATERAL DIREITA COM NOTÍCIAS RECENTES -->
+        <aside class="news">
+            <h3>📰 Notícias sobre Greenwashing</h3>
+
+            <ul>
+                <li><a href="https://www.gazetadopovo.com.br/vozes/adriano-gianturco/cop-30-puro-greenwashing/" target="_blank">
+                    A COP 30 é puro greenwashing— Gazeta
+                </a></li>
+
+                <li><a href="https://envolverde.com.br/governanca/greenwashing-no-brasil-estudo-revela-que-85-das-alegacoes-ambientais-nos-produtos-sao-enganosas/" target="_blank">
+                    Greenwashing no Brasil: Estudo revela que 85% das alegações ambientais nos produtos são enganosas- ENVOLVERDE
+                </a></li>
+
+                <li><a href="https://www1.folha.uol.com.br/tec/2025/07/livro-argumenta-que-carros-eletricos-sao-greenwashing-e-solucoes-de-big-techs-nao-vao-nos-salvar.shtml" target="_blank">
+                    Livro argumenta que carros elétricos são 'greenwashing' e soluções de big techs não vão nos salvar — FOLHA DE SP
+                </a></li>
+
+                <li><a href="https://veja.abril.com.br/..." target="_blank">
+                    Empresas são multadas por propaganda ambiental enganosa — VEJA
+                </a></li>
+            </ul>
+        </aside>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
